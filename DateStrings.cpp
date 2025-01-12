@@ -23,18 +23,18 @@
 // the short strings for each day or month must be exactly dt_SHORT_STR_LEN
 #define dt_SHORT_STR_LEN  3 // the length of short strings
 
-static char buffer[dt_MAX_STRING_LEN+1];  // must be big enough for longest string and the terminating null
+static char buffer[sizeof("Septembre")+1];  // must be big enough for longest string and the terminating null
 
-const char monthStr0[] PROGMEM = "";
-const char monthStr1[] PROGMEM = "Janvier";
-const char monthStr2[] PROGMEM = "Février";
-const char monthStr3[] PROGMEM = "Mars";
-const char monthStr4[] PROGMEM = "Avril";
-const char monthStr5[] PROGMEM = "Mai";
-const char monthStr6[] PROGMEM = "Juin";
-const char monthStr7[] PROGMEM = "Juillet";
-const char monthStr8[] PROGMEM = "Août";
-const char monthStr9[] PROGMEM = "Septembre";
+const char monthStr0[] PROGMEM  = "";
+const char monthStr1[] PROGMEM  = "Janvier";
+const char monthStr2[] PROGMEM  = "Février";
+const char monthStr3[] PROGMEM  = "Mars";
+const char monthStr4[] PROGMEM  = "Avril";
+const char monthStr5[] PROGMEM  = "Mai";
+const char monthStr6[] PROGMEM  = "Juin";
+const char monthStr7[] PROGMEM  = "Juillet";
+const char monthStr8[] PROGMEM  = "Août";
+const char monthStr9[] PROGMEM  = "Septembre";
 const char monthStr10[] PROGMEM = "Octobre";
 const char monthStr11[] PROGMEM = "Novembre";
 const char monthStr12[] PROGMEM = "Décembre";
